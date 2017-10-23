@@ -14,10 +14,11 @@
 
 # Maintainer: Aleksey Filippov <sarum9in@gmail.com>
 # Contributor: Victor Aurélio Santos <victoraur.santos@gmail.com>
+# Contributor: Stefan Auditor <stefan.auditor@erdfisch.de>
 
 pkgbase=grpc
 pkgname=('grpc' 'php-grpc')
-pkgver=1.4.5
+pkgver=1.6.0
 pkgrel=1
 pkgdesc="A high performance, open source, general RPC framework that puts mobile and HTTP/2 first."
 arch=('i686' 'x86_64')
@@ -30,7 +31,7 @@ source=(
     https://github.com/$pkgname/$pkgname/archive/v$pkgver.tar.gz
 )
 noextract=()
-md5sums=('09be11cb134ae53a5697294b402941f2')
+md5sums=('0142fc5ea622d996376bd4eebff07d00')
 
 prepare() {
   cd "$srcdir/$pkgname-$pkgver"
