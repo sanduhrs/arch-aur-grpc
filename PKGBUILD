@@ -18,7 +18,7 @@
 
 pkgbase=grpc
 pkgname=('grpc' 'php-grpc')
-pkgver=1.6.4
+pkgver=1.6.5
 pkgrel=1
 pkgdesc="A high performance, open source, general RPC framework that puts mobile and HTTP/2 first."
 arch=('i686' 'x86_64')
@@ -31,7 +31,7 @@ source=(
     https://github.com/$pkgname/$pkgname/archive/v$pkgver.tar.gz
 )
 noextract=()
-md5sums=('ef50f7fead14a6512b788da776ea649f')
+md5sums=('4d7487417abe2f9f6ded737e475d14fe')
 
 prepare() {
   cd "$srcdir/$pkgname-$pkgver"
